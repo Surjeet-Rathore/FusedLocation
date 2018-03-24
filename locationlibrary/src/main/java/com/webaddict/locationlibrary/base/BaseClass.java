@@ -68,6 +68,7 @@ public class BaseClass {
         }
     }
 
+/*
     public static boolean isLocationEnabled(Context context) {
         int locationMode = 0;
         String locationProviders;
@@ -85,6 +86,7 @@ public class BaseClass {
             return !TextUtils.isEmpty(locationProviders);
         }
     }
+*/
 
     public void TurnOnGps(GoogleApiClient.ConnectionCallbacks connectionCallbacks,final Context context) {
         GoogleApiClient googleApiClient = new GoogleApiClient.Builder(context)
